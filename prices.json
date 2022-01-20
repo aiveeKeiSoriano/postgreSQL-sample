@@ -1,0 +1,19 @@
+{
+    "default_pricing": [
+        {
+            "price": 3,
+            "name": "10 minutes",
+            "value": 10
+        },
+        {
+            "price": 5,
+            "name": "20 minutes",
+            "value": 20
+        },
+        {
+            "price": 15,
+            "name": "60 minutes",
+            "value": 60
+        }
+    ]
+}

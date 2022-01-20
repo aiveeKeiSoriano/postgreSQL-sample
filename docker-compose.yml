@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+    postgres:
+        image: "postgres:11"
+        container_name: "postgresqlSample-challengedb"
+        environment:
+            - POSTGRES_USER=postgresqlSample
+            - POSTGRES_PASSWORD=postgresqlSample
+            - POSTGRES_DB=postgresqlSample
+        ports:
+            - "5435:5432"
+        volumes:
+            - postgresqlSample-vol:/var/lib/postgresql/data
+volumes:
+    postgresqlSample-vol:
